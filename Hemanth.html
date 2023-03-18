@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> first design</title>
+    <link rel="stylesheet" href="./Hemanth.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js">
+    
+</head>
+<body>
+
+     <section class="header">
+        <nav>
+        <label class="logo">first design</label>
+    
+        <div class="nav links id=navLinks">
+            <i class="fa fa-times" onclick="hidmenu()"></i>
+                <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">About</a></li>
+                <li><a href="index.html">services</a></li>
+                <li><a href="index.html">contact</a></li>
+                <li><a href="index.html">feedback</a></li>  
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>          
+        </nav>
+       
+      <div class="text-box">
+        <h1>BEST DESIGN</h1>
+        <p>Are you looking for development tools, embedded software, evaluation boards & kits, and simulation tools or models?<br>
+             Infineon provides an immersive design ecosystem for the best developer experience,<br>
+              creating solutions, making life easier, safer, and greener.</p>
+              <a href="" class="hero-btn">VISIT Us know more</a>
+      </div>    
+     </section>
+<!----course-------->
+      <section class="course">
+         <h1>design course</h1>
+         <p> i will teach you the course</p>
+         <div class="row">
+            <div class="course-col">
+                <h3>what is the html</h3>
+                <p>HTML (Hypertext Markup Language) is the standard markup language 
+                    used for creating web pages and web applications.
+                     It is the foundation of the World Wide Web and is used to structure content on the internet.</p>     
+         </div>
+         <div class="course-col">
+            <h3> what is the css</h3>
+            <p>CSS (Cascading Style Sheets) is a style sheet language used for describing the presentation and formatting of HTML
+                 (Hypertext Markup Language) and XML (eXtensible Markup Language) documents. It is used to define the layout, colors, fonts, 
+                and other visual elements of a web page or web application.</p>
+         </div>
+         <div class="course-col">
+            <h3> what is the javascript</h3>
+            <p>JavaScript is a high-level, dynamic programming language that is commonly
+                 used for creating interactive web applications and for adding dynamic behavior to websites.
+                 It is one of the three core technologies used for web development, alongside HTML and CSS.</p>
+         </div>
+        
+      </section>
+      <!---------campus----->
+      <section class="campus">
+        <h1> our coaching center</h1>
+        <p>i will teach you the course</p>
+        <div class="row">
+            <div class="campua-col">
+                <img src="coach-clipart-business-coaching-3.png">
+                <div class="layer">
+                    <h3>bengalor</h3>
+                </div>                          
+        </div>
+        <div class="campua-col">
+            <img src="OIP.jfif">
+            <div class="layer">
+                <h3>Hyderabad</h3>
+            </div>               
+      </section>
+
+
+
+
+
+
+    <!-------- javascript for Toggle menu------->  
+     <script>
+        var navLinks= document.getElementById(navLinks);
+        function showMenu(){
+            navLinks.style.right ='0';
+        }
+        function hidmenu(){
+            navLinks.style.right ="-200px"
+        }
+     </script>
+</body>
+
+</html>
